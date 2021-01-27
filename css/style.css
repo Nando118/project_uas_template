@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-image: url(../resource/img/genshin_12_4K.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* LOGIN */
+.container-main-login {
+    height: 100%;
+    align-content: center;
+}
+
+.container-main-login .card-main-login {
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+
+    background: rgba( 255, 255, 255, 0.40 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+}
+
+.container-main-login .card-main-login .card-img-top img.card-header-brand {
+    height: 40px;
+    margin-top: 1.4rem !important;
+    margin-bottom: .9rem !important;
+}
+
+.container-main-login .card-main-login .card-body .form-group .input-group-login span {
+    width: 40px;
+    background-color: #fff;
+    color: black;
+    border:0 !important;
+}
+
+.container-main-login .card-main-login .card-body input:focus {
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;   
+}
+
+.container-main-login .card-main-login .card-body .remember {
+    color: #222831;
+}
+
+.container-main-login .card-main-login .card-body .remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 1rem;
+    margin-right: .4rem;
+}
+
+.container-main-login .card-main-login .card-body .login_btn{
+    color: #222831;
+    background-color: #fff;
+    width: 100px;
+}
+
+.container-main-login .card-main-login .card-body .login_btn:hover{
+    color: #fff;
+    background-color: #222831;
+}
+
+.container-main-login .card-main-login .card-footer {
+    color: #222831;
+}
+
+.container-main-login .card-main-login .card-footer a.links {
+    color: white;
+}
+
+/* END LOGIN */
